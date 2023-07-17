@@ -1,5 +1,6 @@
 import 'package:flutter_boilerplate/screens/home_screen/home_screen.dart';
 import 'package:flutter_boilerplate/screens/login_screen/login_screen.dart';
+import 'package:flutter_boilerplate/screens/register_otp/register_otp.dart';
 import 'package:flutter_boilerplate/screens/signup_screen/signup_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:page_transition/page_transition.dart';
@@ -19,6 +20,10 @@ class AppRouter {
       case (Routes.register):
         isPageTransition = true;
         page = const SignupScreen();
+        break;
+
+      case (Routes.registerOtp):
+        page = const RegisterOtp();
         break;
 
       case (Routes.login):

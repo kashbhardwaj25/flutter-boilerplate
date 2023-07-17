@@ -10,7 +10,7 @@ class SignupScreen extends StatelessWidget {
         title: const Text('Taskaide'),
       ),
       body: const Center(
-        child: Text('Hello World'),
+        child: Text('Register for your account!'),
       ),
     );
   }

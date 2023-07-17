@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_boilerplate/routes/route_names.dart';
 
-class LoginScreen extends StatelessWidget {
-  const LoginScreen({super.key});
+class RegisterOtp extends StatelessWidget {
+  const RegisterOtp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +15,7 @@ class LoginScreen extends StatelessWidget {
           );
         },
         child: const Text(
-          'Create Account',
+          'Register Otp',
           style: TextStyle(
             color: Colors.white,
           ),
